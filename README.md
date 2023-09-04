@@ -1,8 +1,12 @@
 # quick-start
 
+docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu-anime:latest
+
 docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu:latest
 
 # pull
+
+docker pull ophigeni/ubuntu-anime:latest
 
 docker pull ophigeni/ubuntu:latest
 
