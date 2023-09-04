@@ -1,3 +1,11 @@
+# quick-start
+
+docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu:latest
+
+# pull
+
+docker pull ophigeni/ubuntu:latest
+
 # clone-from-fcwu
 
 git clone --recursive https://github.com/fcwu/docker-ubuntu-vnc-desktop
