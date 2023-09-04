@@ -1,3 +1,7 @@
+# clone-from-fcwu
+
+git clone --recursive https://github.com/fcwu/docker-ubuntu-vnc-desktop
+
 # Docker-build
 
 docker build -t docker-ubuntu-ophigeni .
