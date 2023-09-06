@@ -1,4 +1,8 @@
-# quick-start
+# ubuntu 22.04
+docker run --rm -p 6080:80 -e RESOLUTION=1530x740 ophigeni/ubuntu-dball:latest
+
+# ubuntu 20.04
+docker run --rm -p 6080:80 -e RESOLUTION=1530x740 ophigeni/ubuntu-onepiece:latest   
 
 docker run -p 6080:80 -v /dev/shm:/dev/shm ophigeni/ubuntu-anime:latest
 
